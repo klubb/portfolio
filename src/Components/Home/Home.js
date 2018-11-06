@@ -127,9 +127,10 @@ class Home extends Component {
             </div>
           </div>
         </div>
-
+  
         <div className="skills-container">
           <h1>Skills</h1>
+          
           <div
             ref={section => {
               this.skills = section;
@@ -145,11 +146,38 @@ class Home extends Component {
                 <li>Socket.io</li>
                 <li>Node</li>
               </ul> */}
-            <i class="fab fa-react fa-5x" />
+            {/* <i class="fab fa-react fa-5x" />
             <i class="fab fa-js-square fa-5x" />
             <i class="fab fa-html5 fa-5x" />
             <i class="fab fa-css3-alt fa-5x" />
-            <i class="fab fa-node fa-5x" />
+            <i class="fab fa-node fa-5x" /> */}
+            <div className="skillbox">
+              <h1>Front end</h1>
+              <div className="front">
+              <h3 className='skillsbutton'>Javascript</h3>
+              
+            <h3 className='skillsbutton'>React</h3>
+            <h3 className='skillsbutton'>Redux</h3>
+            <h3 className='skillsbutton'>HTML</h3>
+            <h3 className='skillsbutton'>CSS</h3>
+            <h3 className='skillsbutton'>Sass</h3>
+              </div>
+              <h1>Backend</h1>
+              <div className="front">
+              
+              
+            <h3 className='skillsbutton'>Express.js</h3>
+            <h3 className='skillsbutton'>Node.js</h3>
+            <h3 className='skillsbutton'>Massive.js</h3>
+            <h3 className='skillsbutton'>PostgreSQL</h3>
+            
+              </div>
+              <h1>Source Control</h1>
+              <h3 className='skillsbutton'>Git</h3>
+            </div>
+
+          
+            
           </div>
         </div>
       </div>
