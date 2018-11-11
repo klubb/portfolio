@@ -135,6 +135,7 @@ i:hover {
   flex-direction: column; 
   cursor: pointer;
   
+  
 }
 
 
@@ -217,13 +218,13 @@ button:hover {
 
 }
 
-.info p {
-  /* width: 45vw; */
-  font-family: Source Sans Pro;
-}
-
 .info {
   margin-left: 50px;
+  
+}
+
+.info p {
+  font-family: Source Sans Pro;
 }
 .sketchful-container {
   display: flex;
@@ -232,9 +233,9 @@ button:hover {
  
 }
 
-.project-description {
+/* .project-description {
   font-family: Source Sans Pro;
-}
+} */
 
 .sketchful-body {
     display: flex;
@@ -498,7 +499,7 @@ button {
 }
 
 .sketchful-images {
-  width: 65vw;
+  width: 75vw;
   height: auto;
   margin: 30px;
   border: 1px black solid;

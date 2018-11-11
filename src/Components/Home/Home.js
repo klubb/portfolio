@@ -11,6 +11,7 @@ class Home extends Component {
     this.state = {};
   }
   render() {
+   
     return (
       <div className='bigcontainer'>
         <div className="header">
