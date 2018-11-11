@@ -21,7 +21,7 @@ const Sketchful = () => {
         </span>
         <h1>Technolgies Used</h1>
         <span>
-          • React • Redux • Styled Components • HTML • Socket.io • Node.js •
+          React • Redux • Styled Components • HTML • Socket.io • Node.js •
           Express.js • PostgreSQL • Auth0
         </span>
         <div className="img-container">

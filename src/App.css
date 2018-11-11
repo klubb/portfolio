@@ -67,11 +67,14 @@ i:hover {
 .description {
   width: 70vw;
   margin-left: 90px;
+  
+
 }
 
 .container {
   display: flex;
   width: 100vw;
+  
   
 }
 
@@ -216,7 +219,7 @@ button:hover {
 
 .info p {
   /* width: 45vw; */
-  font-family: Roboto;
+  font-family: Source Sans Pro;
 }
 
 .info {
@@ -229,6 +232,10 @@ button:hover {
  
 }
 
+.project-description {
+  font-family: Source Sans Pro;
+}
+
 .sketchful-body {
     display: flex;
     justify-content: center;
@@ -238,7 +245,7 @@ button:hover {
     text-align: center;
     width: 65vw;
     margin-top: 50px;
-    font-family: Raleway;
+    font-family: Source Sans Pro;
     margin-bottom: 50px;
 }
 
@@ -404,7 +411,8 @@ button:hover {
    justify-content: center;
    align-items: center;
    align-content: center;
- 
+    margin: 0;
+    
   }
 
   .projectcontainer {
@@ -420,6 +428,26 @@ button:hover {
     align-content: center;
     
   }
+
+
+.sketchful-body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  width: 65vw;
+  margin-top: 50px;
+  font-family: Source Sans Pro;
+  margin-bottom: 50px;
+  line-height: 30px;
+}
+
+.sketchful-body h1 {
+  line-height: 35px;
+}
+
   .skillbox h1 {
    font-size: 20px;
   }
@@ -431,15 +459,15 @@ button:hover {
   }
 button {
     cursor: pointer;
-    width: 100px;
+    width: 150px;
     margin: 10px;
-    height: 28px;
+    /* height: 28px; */
     color: white;
     background: #222;
     border: solid 1px black;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 16px;
     font-family: Oswald;
 }
 .idk2 {
@@ -449,9 +477,14 @@ button {
   
 }
 
+.container {
+  justify-content: center;
+}
+
 
 .project-description {
   margin-top: 90px;
+  
 }
 .info {
   display: none;
