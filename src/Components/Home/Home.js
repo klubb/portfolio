@@ -12,7 +12,7 @@ class Home extends Component {
   }
   render() {
     return (
-      <div>
+      <div className='bigcontainer'>
         <div className="header">
           <img className="k" src={Logo} alt="" />
           <div className="spans">
@@ -53,7 +53,7 @@ class Home extends Component {
 
         {/* <div className="experience">
               <span className='current'>CURRENTLY:</span>
-              <img className="devmtn" src={devmtn} alt="" />
+              <imgskclassName="devmtn" src={devmtn} alt="" />
              </div> */}
 
         <div
@@ -73,11 +73,11 @@ class Home extends Component {
                       <button>Live Site</button>
                       
                     </a>
-                    <a target="_blank" href='https://github.com/klubb/sketchful'> <button>GitHub Repo</button></a>
+                    <a target="_blank" href='https://github.com/klubb/sketchful'> <button>GitHub</button></a>
                     <Link to='/sketchful'><button>More...</button></Link>
                   </div>
                 </div>
-
+                 
                 <div className="info">
                   <h1>Sketchful</h1>
                   <p className='project-description'>
@@ -109,7 +109,7 @@ class Home extends Component {
                       <button>Live Site</button>
                       
                     </a>
-                    <a target="_blank" href='https://github.com/KennyCrump/clone-wars'> <button>GitHub Repo</button></a>
+                    <a target="_blank" href='https://github.com/KennyCrump/clone-wars'> <button>GitHub</button></a>
                     <Link to='/kodewars'><button>More...</button></Link>
                     
                     
