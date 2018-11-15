@@ -1,0 +1,45 @@
+#footer-container {
+    background-color: #122230;
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('jakelogo-stacked.png');
+  background-position: left;
+  object-fit: cover;
+  background-size: 49vh;
+  background-repeat: no-repeat;
+
+}
+
+.footer-header {
+    color: white;
+    font-family: Montserrat;
+    font-size: 25px;
+    /* margin-bottom: 20px; */
+    text-transform: uppercase;
+    opacity: .5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer-info {
+    display: flex;
+    align-items: center;
+    align-content: center;
+
+}
+
+.emoji {
+    margin-left: 10px;
+    font-size: 30px;
+    opacity: .9;
+}
+
+@media(max-width: 653px) {
+    
+
+    #footer-container {
+        background-image: none;
+    }
+}

@@ -1,0 +1,87 @@
+
+
+#skills-container {
+    background-color: #f8f8f8;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    background-image: url('./laptopbig.png');
+    background-position: -40% 50%;
+    object-fit: cover;
+    background-size: 55vw;
+    background-repeat: no-repeat;
+}
+
+.skills-header {
+    margin: 50px;
+}
+
+.skills {
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: calc(2.2rem + (150 - 58) * (100vw - 20rem) / (1440 - 320));
+    color: #eee;
+    text-transform: uppercase;
+    margin-bottom: 84px;
+}
+
+.skills-section {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    width: 35vw;
+    align-content: flex-end;
+    align-items: flex-end;
+   
+    
+    
+}
+
+.skills-section p {
+    font-family: Source Sans Pro;
+    color: #8d8d8d;
+    font-weight: bolder;
+    line-height: 24px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    
+}
+
+
+
+
+.myskills{
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #8d8d8d;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 800px) {
+    #skills-container {
+        background-image: none;
+    }
+    .blacky {
+        width: 60vw;
+       
+        text-align: right;
+    }
+
+    .skills-section {
+        float: right;
+
+    }
+
+    .skills-section p {
+        width: 80vw;
+        
+    }
+
+    .myskills {
+        width: 70vw;
+        text-align: right;
+    }
+}

@@ -1,28 +1,26 @@
 import React from 'react';
-import Kaleb from './egg.jpg'
-import {Link} from 'react-router-dom'
+import './About.css'
 
 const About = () => {
-    return ( <div id='about-view'>
-    <div id='about-content' className='animated fadeInRight faster'>
-        <h1 id="about-title">About Me</h1>
-        <img src={Kaleb} alt='Jake' id='about-picture' />
-        <h2 className='project-name'>Kaleb Manley</h2>
-        <h3 style={{ marginTop: '-15px' }}>Full Stack <span className='bluetext'>Web Developer</span></h3>
-        <p className='project-description'>
-            My name is Kaleb Manley, a Full Stack Web Developer living in Utah. I am a graduate from DevMountain, a coding bootcamp specializing in all the current web technologies. I offer a creative mindset and am passionate about web development. I'm excited to contribute to this field and ready to get started.
-        </p>
-        <p className='project-description'>
-            In my free time I like to watch and play basketball and go to the gym. I also enjoy playing video games.
-            </p>
-            <br/>
-        <h2>Contact Me </h2>
-        <h3>kalebamanley@gmail.com</h3>
-        <Link to='/' ><i class="fas fa-arrow-circle-left fa-2x"></i></Link> 
-    </div>
-    
-</div>
- );
+    return (
+        <div id='about-container'>
+            <div className="about-header">
+                <h1 className='aboutme'>ABOUT ME</h1>
+            </div>
+            <div className='about-section'>
+                <h1 className='whitey'>KALEB MANLEY</h1>
+                <p>I am a Full Stack Web Developer by trade and passionate about coding, designing and making new things come to life on the screen.</p>
+                <br />
+                <p>I seem to have an eye for design and user experience. I enjoy working with UI/UX to make sure designs are functional, accessible, and give the intended experience.</p>
+                <br />
+                <p>I worked as a framer for a little over 2 years and wanted to do something else with my life, so I looked into a coding bootcamp called DevMountain and graduated from there. I have been coding ever since.</p>
+                <br />
+                <p>When I'm not coding, I am watching basketball, playing video games or at the gym.</p>
+                {/* <button className='about-button'>View More</button> */}
+            </div>
+
+        </div>
+    );
 }
- 
+
 export default About;

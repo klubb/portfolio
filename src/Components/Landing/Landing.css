@@ -1,0 +1,188 @@
+#landing-container {
+  background-color: rgb(0, 103, 246);
+  height: 100vh;
+  min-height: 600px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  background-image: url("./media/bluewave.png"), url("./media/bluewave2.png");
+  background-position: right bottom, top left;
+  object-fit: cover;
+  background-size: 49vh;
+  background-repeat: no-repeat;
+}
+
+#landing-info {
+  font-family: Montserrat;
+  font-weight: 800;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 115px;
+  justify-content: center;
+  align-content: center;
+}
+
+.animated-wordscontainer {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 50px;
+  width: 100vw;
+  transition: all 0.25s ease;
+}
+
+.landing-header {
+  font-size: calc(2rem + (110 - 36) * (100vw - 20rem) / (1440 - 320));
+  margin-bottom: 50px;
+}
+
+.landing-subheader {
+  font-size: calc(1.25rem + (42 - 20) * (100vw - 20rem) / (1440 - 320));
+  width: 40vw;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.middle {
+  margin: 0px 30px;
+}
+
+#landing-spacer {
+  width: 40vw;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.landing-button {
+  font-family: Oswald, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: inline-block;
+  cursor: pointer;
+  opacity: 0.9;
+  width: 170px;
+  padding: 12px 20px 8px;
+  font-size: 18px;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-width: 5px;
+  border-color: currentColor;
+  border-style: solid;
+  transition: all 0.25s ease;
+  color: black;
+  box-shadow: 0px 0px, 1px 1px, 2px 2px, 3px 3px, 4px 4px, 5px 5px, 6px 6px,
+    7px 7px, 8px 8px, 9px 9px, 10px 10px, 11px 11px, 12px 12px, 13px 13px,
+    14px 14px, 15px 15px, 16px 16px;
+  margin-bottom: 16px;
+  margin-top: 50px;
+}
+
+.animated-words {
+  display: flex;
+  align-items: center;
+}
+
+.animated-words span:nth-child(2) {
+  -webkit-animation-delay: 2s;
+  -ms-animation-delay: 2s;
+  animation-delay: 2s;
+  color: white;
+}
+.animated-words span:nth-child(3) {
+  -webkit-animation-delay: 4s;
+  -ms-animation-delay: 4s;
+  animation-delay: 4s;
+  color: white;
+}
+.animated-words span:nth-child(4) {
+  -webkit-animation-delay: 6s;
+  -ms-animation-delay: 6s;
+  animation-delay: 6s;
+  color: white;
+}
+
+.animated-words span {
+  position: absolute;
+  left: 0px;
+  opacity: 0;
+  color: white;
+  -webkit-animation: animateWord 6s linear infinite 0s;
+  -ms-animation: animateWord 6s linear infinite 0s;
+  animation: animateWord 6s linear infinite 0s;
+}
+
+@-webkit-keyframes animateWord {
+  0% {
+    opacity: 0;
+  }
+  2% {
+    opacity: 0;
+    -webkit-transform: translateY(-30px);
+  }
+  5% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+  }
+  17% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+  }
+  20% {
+    opacity: 0;
+    -webkit-transform: translateY(30px);
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 875px) {
+  #landing-info {
+    margin-top: 75px;
+  }
+  .landing-button {
+    width: 125px;
+    font-size: 15px;
+    padding: 6px 10px 8px;
+    box-shadow: 0px 0px, 1px 1px, 2px 2px, 3px 3px, 4px 4px, 5px 5px, 6px 6px,
+    7px 7px, 8px 8px, 9px 9px, 10px 10px, 11px 11px, 12px 12px;
+  }
+}
+
+@media (max-width: 620px) {
+  .animated-wordscontainer {
+    flex-direction: column;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+  }
+  .landing-subheader {
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+  }
+  .middle {
+    margin: 30px 0px;
+  }
+  #landing-spacer {
+    width: 250px;
+    height: 100px;
+    top: -15px;
+    position: relative;
+  }
+  .animated-words {
+    position: relative;
+    width: 200px;
+  }
+}
