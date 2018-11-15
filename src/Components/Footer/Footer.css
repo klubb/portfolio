@@ -5,11 +5,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('jakelogo-stacked.png');
+    /* background-image: url('jakelogo-stacked.png');
   background-position: left;
   object-fit: cover;
   background-size: 49vh;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 
 }
 
