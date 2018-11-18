@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import routes from './routes'
+
 
 class App extends Component {
   constructor(props) {
@@ -15,7 +15,7 @@ class App extends Component {
     return (
       <div >
      
-     {routes}
+     
         
       </div>
     );

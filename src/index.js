@@ -5,4 +5,4 @@ import App from './App';
 import {HashRouter} from 'react-router-dom'
 import Main from './Main';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Main />, document.getElementById('root'));
