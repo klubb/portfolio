@@ -13,7 +13,10 @@ const Landing = (props) => {
                         <div className="landing-subheader animated-words">
                             <span className='am1'>Video Games</span>
                             <span className='am1'>Ping Pong</span>
-                            <span className='am1'>Going Outside</span>
+                            <span className='am1'>Basketball</span>
+                            <span className='am1'>working out</span>
+                            <span className='am1'>Longboarding</span>
+                            {/* <span className='am1'>Going Outside</span> */}
                         </div>
                     </div>
                 </div>

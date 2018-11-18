@@ -154,16 +154,16 @@
         height: 100px;
     }
     .logo-smaller {
-        height: 90px;
+        height: 100px;
         left: 10px;
     }
 }
 
 @media (max-width: 400px) {
     .logo-smaller {
-        height: 70px;
+        height: 80px;
         left: 0px;
-        top: 30px;
+        top: 40px;
     }
 }
 

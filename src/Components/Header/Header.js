@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './Header.css'
 import Logo from './kaleblogo.png'
-import SmallerLogo from './jakelogo-stacked.png'
+import SmallerLogo from './kaleblogo2.png'
 import HamburgerMenu from 'react-hamburger-menu'
 
 class Header extends Component {

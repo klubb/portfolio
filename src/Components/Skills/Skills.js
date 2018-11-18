@@ -17,8 +17,8 @@ const Skills = () => {
                 <p align='right'>JavaScript ES6 • React • Redux • HTML  • CSS  • CSS in JS</p>
                 <h1 className='blacky'>BACK END</h1>
                 <p align='right'>Node • Express • Massive • PostgreSQL • Socket.io </p>
-                {/* <h1 className='blacky2'>SOURCE CONTROL</h1>
-                <p align='right'>Git </p> */}
+                <h1 className='blacky'>ADDITIONAL</h1>
+                <p align='right'>Git • Jest • RESTful API • Photoshop</p>
             </div>
         </div>
         </div>

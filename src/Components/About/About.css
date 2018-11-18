@@ -1,8 +1,7 @@
 #about-container {
     background-color: #f65a42;
     width: 100vw;
-    height: 70vh;
-    min-height: 1000px;
+    height: 100vh;
     background-image: url('./controllerright.png');
     background-position: right bottom;
     object-fit: cover;
@@ -10,29 +9,32 @@
     background-repeat: no-repeat;
 }
 
-
-
 .aboutme {
-    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-family: 'Montserrat';
     font-weight: 700;
     font-size: calc(2.2rem + (150 - 58) * (100vw - 20rem) / (1440 - 320));
     color: #e14a33;
     text-transform: uppercase;
-    margin-bottom: 84px;
     padding: 50px;
-    
+}
+
+#about-bottom-text {
+    display: flex;
+    width: 50vw;
+    align-items: center;
+    position: relative;
+    bottom: 0px;
+    margin-top: 50px;
 }
 
 .about-section {
     display: flex;
     flex-direction: column;
     margin-left: 50px;
-    width: 35vw;
+    width: 40vw;
     justify-content: center;
     align-content: center;
     color: white;
-    margin-top: 100px
-
 }
 
 .about-section p {
@@ -51,12 +53,13 @@
 }
 
 .about-button{
-    font-family: 'Oswald','Helvetica Neue',Helvetica,Arial,sans-serif;
+      font-family: 'Oswald','Helvetica Neue',Helvetica,Arial,sans-serif;
       font-weight: 700;
       display: inline-block;
       cursor: pointer;
       width: 130px;
       min-width: 125px;
+      height: 50px;
       padding: 0px 20px 4px;
       font-size: 17px;
       background-color: white;
@@ -69,19 +72,44 @@
       transition: all 0.25s ease;
       color: black;
       box-shadow: 0px 0px, 1px 1px, 2px 2px, 3px 3px, 4px 4px, 5px 5px, 6px 6px, 7px 7px, 8px 8px, 9px 9px, 10px 10px, 11px 11px, 12px 12px;
-      margin-bottom: 16px;
-      margin-top: 50px;
-      margin-right: 60px;
+      margin-left: 25px;
+      margin-bottom: 20px;
 }
 
 
 @media(max-width: 653px) {
     .about-section {
         width: 70vw;
-       
     }
-
     #about-container {
        background-image: none;
+       height: 950px;
     }
+    #about-bottom-text {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .about-button {
+        width: 80px;
+        margin-left: 0px;
+    }
+}
+
+@media(max-width: 1030px) {
+    
+    #about-container {
+       background-image: none;
+       height: 950px;
+    
+}
+
+.about-section {
+    width: 75vw;
+}
+
+#about-bottom-text {
+    width: 100%;
+    
+}
 }

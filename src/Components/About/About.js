@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css'
 
-const About = () => {
+const About = (props) => {
     return (
         <div id='about-container'>
             <div className="about-header">
@@ -17,7 +17,12 @@ const About = () => {
                 <br />
                 <p>When I'm not coding, I am watching basketball, playing video games or at the gym.</p>
                 {/* <button className='about-button'>View More</button> */}
+                <div id='about-bottom-text'>
+                <h1 className='whitey' style={{fontSize: '3.5vh'}}>WANT TO HIRE A SWEET DEV?</h1>
+                <button className='about-button' onClick={() => props.click('ContactScroll')}>Let's talk</button>
+                </div>
             </div>
+            
 
         </div>
     );

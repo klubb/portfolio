@@ -63,6 +63,7 @@
 @media (max-width: 800px) {
     #skills-container {
         background-image: none;
+        height: 85vh;
     }
     .blacky {
         width: 60vw;
